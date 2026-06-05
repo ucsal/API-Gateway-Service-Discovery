@@ -1,0 +1,11 @@
+@"
+target/
+*.jar
+*.war
+*.class
+*.log
+.mvn/wrapper/maven-wrapper.jar
+oracleJdk-26/
+.idea/
+.vscode/
+"@ | Out-File -Encoding utf8 .gitignore
